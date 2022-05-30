@@ -5,10 +5,7 @@ public class Calculator {
         return a + b;
     }
 
-    public Double divide(Double a, Double b) throws Exception {
-        if (b == 0) {
-            throw new Exception("Second argument can't be 0.");
-        }
+    public Double divide(Double a, Double b) {
         return a / b;
     }
 }
